@@ -18,7 +18,8 @@
 	Person pPerson = (Person)(request.getAttribute("requestPerson"));
 	%>
 	<ul>
-		<!-- 앞에서 remove외었으므로 null이 출력된다. -->
+		<!-- 앞에서 remove 되었으므로 null이 출력된다. -->
+		<!-- Person객체만 request되었으므로 String객체는 null로 출력됨. -->
 		<li>String 객체 : <%= request.getAttribute("requestSting") %></li>
 		<li>Person 객체 : <%= pPerson.getName() %>, <%= pPerson.getAge() %></li>
 	</ul>

@@ -24,7 +24,7 @@ String searchWord = request.getParameter("searchWord");
 if (searchWord != null) {
 	/* Map컬렉션에 컬럼명과 검색어를 추가한다. */
 	param.put("searchField", searchField);
-	param.put("searchWord",searchWord);
+	param.put("searchWord",searchWord); 
 }
 //Map컬렉션을 인수로 게시물의 갯수를 카운트한다.
 int totalCount = dao.selectCount(param);

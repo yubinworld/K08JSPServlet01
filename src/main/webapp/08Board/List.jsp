@@ -27,7 +27,7 @@ if (searchWord != null) {
 	param.put("searchWord",searchWord);
 }
 //Map컬렉션을 인수로 게시물의 갯수를 카운트한다.
-int totalCount = dao.selectCount(param);
+int totalCount = dao.selectCount(param); 
 //목록에 출력한 게시물을 추출하여 반환받는다. 
 List<BoardDTO> boardLists = dao.selectList(param);
 //자원해제

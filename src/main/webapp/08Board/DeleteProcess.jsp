@@ -4,7 +4,7 @@
     pageEncoding="UTF-8"%>
 <!-- 작성자 본인만 삭제할 수 있으므로 기본적으로 로그인 체크를 해야한다. -->
 <%@ include file="./IsLoggedIn.jsp"%>
-<%
+<%  
 String num = request.getParameter("num");
 
 BoardDTO dto = new BoardDTO();

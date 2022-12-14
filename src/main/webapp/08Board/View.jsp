@@ -103,6 +103,18 @@ function deletePost() {
             </td>
         </tr>
     </table>
+    
+    	<table border="1">
+		<%for(int dan=2; dan <=9; dan++){ %>
+		<tr>
+			<%for(int su=1; su <=9; su++) %>
+			<td>
+				<%=dan %> * <%=su %> = <%=dan * su%>
+			</td>
+			<%}%>
+		</tr>
+		<%}%>
+	</table>
 </form>
 </body>
 </html>

@@ -49,6 +49,9 @@ request.setAttribute("requestPerson",new Person("안중근",31));
 	*/
 	request.getRequestDispatcher("RequestForward.jsp?paramHan=한글&paramEng=English")
 	.forward(request, response);
+	
+	request.getRequestDispatcher("RequestForward.jsp?paramHam=한글&paramEng=English").forward(request, response);
+	
 	%>
 </body>
 </html>

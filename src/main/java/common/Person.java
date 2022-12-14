@@ -1,6 +1,7 @@
 package common;
 /*
-순수하게 데이터 저장 기능만 있는 
+순수하게 데이터 저장 기능만 있는 클래스를
+
  */
 public class Person {
 	private String name;

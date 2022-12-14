@@ -41,10 +41,10 @@ public class JDBConnectCol {
 	public void close() {
 		
 		try {
-			if(rs != null) rs.close(); 
+			if(rs != null) rs.close();
 			if(stmt != null) stmt.close(); 
 			if(psmt != null) psmt.close(); 
-			if(con != null) con.close(); 
+			if(con != null) con.close();
 			
 			System.out.println("JDBC 자원 해제");
 		} 
